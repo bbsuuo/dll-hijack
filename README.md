@@ -27,3 +27,14 @@ Requirements: bash (msys2), gendef (mingw)
 * <https://github.com/processhacker/phnt>
 * <https://github.com/reactos/reactos>
 * <https://www.winehq.org/>
+
+安装步骤:
+//https://blog.csdn.net/weixin_64064486/article/details/123940266
+1.安装mingw: https://sourceforge.net/projects/mingw/ 
+2.安装gcc mingw-get install gcc    //可额外安装mingw-get install g++  或者mingw-get install gdb        以上步骤都要配置环境变量 
+3.安装ninja
+4.安装cmake
+5.mkdir build
+6.cd build
+7.cmake -GNinja ..
+8.ninja  //或者ninja > build.log 2>&1 输出到日志

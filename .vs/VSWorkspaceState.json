@@ -1,0 +1,15 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "本地计算机": [
+      "build\\MinGW-Release",
+      "install\\MinGW-Release"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\out",
+    "\\out\\build"
+  ],
+  "SelectedNode": "\\native_api.h",
+  "PreviewInSolutionExplorer": false
+}

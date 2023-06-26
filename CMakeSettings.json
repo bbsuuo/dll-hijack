@@ -1,0 +1,22 @@
+﻿{
+  "configurations": [
+    {
+      "name": "MinGW-Release",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "inheritEnvironments": ["mingw"],
+      "buildRoot": "${projectDir}\\build\\${name}",
+      "installRoot": "${projectDir}\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "variables": []
+    }
+  ],
+  "environments": [
+    {
+      "name": "mingw",
+      "environment": "PATH=${env.PATH};G:\\cpp\\w64devkit-fortran-1.19.0\\w64devkit\\bin"
+    }
+  ]
+}
